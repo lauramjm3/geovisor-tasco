@@ -1,0 +1,8 @@
+   *.csv
+   *.xlsx
+   *.xls
+   privado/
+   raw/
+   export_kobo*
+   muestra_kobo*.json
+   .env
