@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Mapa · Veeduría minera Tasco y Pisba</title>
+  <link rel="stylesheet" href="js/vendor/leaflet.css">
+  <link rel="stylesheet" href="js/vendor/MarkerCluster.css">
+  <link rel="stylesheet" href="js/vendor/MarkerCluster.Default.css">
+  <link rel="stylesheet" href="css/mapa.css">
+</head>
+<body>
+  <header class="top">
+    <a class="marca" href="index.html" aria-label="Volver al inicio">
+      <span class="marca-punto" aria-hidden="true"></span>
+      <span>Veeduría minera<small>Tasco y Páramo de Pisba</small></span>
+    </a>
+    <a class="btn-kobo" id="btn-kobo" href="#">Aportar un caso</a>
+  </header>
+  <div id="aviso-ejemplo" class="aviso" hidden>Datos de EJEMPLO: no son reales. Se reemplazan cuando llegue la información de la comunidad.</div>
+
+  <main class="app">
+    <div id="map" role="region" aria-label="Mapa de títulos mineros y reportes"></div>
+
+    <aside class="panel" id="panel">
+      <div class="buscar">
+        <label class="sr" for="busqueda">Buscar</label>
+        <div class="buscar-fila">
+          <input id="busqueda" type="search" placeholder="Buscar: hueco, agua sucia…" autocomplete="off">
+          <button id="btn-limpiar" class="mini" type="button" hidden>Borrar</button>
+        </div>
+        <div class="buscar-fila">
+          <button id="btn-cerca" class="grande" type="button">📍 Cerca de mí</button>
+          <label class="sr" for="filtro-municipio">Municipio</label>
+          <select id="filtro-municipio"><option value="todos">Todos los municipios</option></select>
+        </div>
+        <p id="msg-cerca" class="msg" aria-live="polite"></p>
+        <p id="estado-datos" class="msg" aria-live="polite">Cargando datos…</p>
+      </div>
+
+      <div id="tabs" class="tabs" role="tablist">
+        <button id="tab-mineria" role="tab" aria-selected="true" type="button">Minería y suelo</button>
+        <button id="tab-agua" role="tab" aria-selected="false" type="button">Agua</button>
+        <button id="tab-reportes" role="tab" aria-selected="false" type="button">Reportes</button>
+      </div>
+
+      <section id="pane-mineria" class="pane" role="tabpanel">
+        <h3>Qué mostrar</h3>
+        <div class="capas">
+          <label class="capa"><input type="checkbox" id="capa-titulos" checked><span>Títulos mineros</span></label>
+          <label class="capa"><input type="checkbox" id="capa-paramo" checked><span>Páramo de Pisba</span></label>
+        </div>
+        <div class="leyenda" aria-label="Colores de los títulos">
+          <span><i style="background:#0F5C57"></i>Licencia vigente</span>
+          <span><i style="background:#B4532A"></i>Suspendida</span>
+          <span><i style="background:#A9791F"></i>En trámite</span>
+          <span><i style="background:#5B6B6A"></i>Otro / sin dato</span>
+        </div>
+        <div id="bloque-titulos" hidden>
+          <h3>Títulos encontrados</h3>
+          <div id="lista-titulos" class="lista"></div>
+          <p id="vacio-titulos" class="msg" hidden>Ningún título coincide con la búsqueda.</p>
+        </div>
+        <h3>Reportes de la comunidad</h3>
+        <div id="cats-mineria" class="cats"></div>
+      </section>
+
+      <section id="pane-agua" class="pane" role="tabpanel" hidden>
+        <h3>Qué mostrar</h3>
+        <div class="capas">
+          <label class="capa"><input type="checkbox" id="capa-agua" checked><span>Cursos de agua</span></label>
+        </div>
+        <h3>Reportes de la comunidad</h3>
+        <div id="cats-agua" class="cats"></div>
+      </section>
+
+      <section id="pane-reportes" class="pane" role="tabpanel" hidden>
+        <h3>Reportes de la comunidad <span id="conteo-reportes" class="conteo"></span></h3>
+        <div id="lista-reportes" class="lista"></div>
+        <p id="vacio-reportes" class="msg" hidden>No hay reportes con estos filtros.</p>
+      </section>
+
+      <section id="detalle" class="detalle" hidden>
+        <button id="detalle-volver" class="volver" type="button">← Volver</button>
+        <div id="detalle-contenido"></div>
+      </section>
+
+      <footer class="pie">Mapa base © colaboradores de OpenStreetMap.</footer>
+    </aside>
+  </main>
+
+  <script src="js/vendor/leaflet.js"></script>
+  <script src="js/vendor/leaflet.markercluster.js"></script>
+  <script src="js/config.js"></script>
+  <script src="js/categorias.js"></script>
+  <script src="js/logica.js"></script>
+  <script src="js/mapa.js"></script>
+</body>
+</html>

@@ -1,0 +1,184 @@
+{
+ "type": "FeatureCollection",
+ "datos_ejemplo": true,
+ "features": [
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -72.787,
+     5.915
+    ]
+   },
+   "properties": {
+    "id": "R-ejemplo1",
+    "ubicacion": "generalizada",
+    "municipio": "Tasco",
+    "vereda": "Vereda Ejemplo Uno",
+    "tipos": [
+     "secamiento_nacimiento"
+    ],
+    "tipos_texto": "Secamiento de nacimiento o fuente de agua",
+    "fecha": "2026-09-14",
+    "descripcion": "REPORTE DE EJEMPLO. El nacimiento que usan tres familias tiene mucha menos agua que el año pasado.",
+    "notificado": "Sí",
+    "entidades": [
+     "Corpoboyacá"
+    ],
+    "fecha_notificacion": "2026-09-18",
+    "respuesta": "No hubo ninguna respuesta",
+    "ph": 6.5,
+    "turbidez_ntu": 12.3,
+    "conductividad_us": 85
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -72.7954,
+     5.9188
+    ]
+   },
+   "properties": {
+    "id": "R-ejemplo2",
+    "ubicacion": "exacta",
+    "municipio": "Tasco",
+    "vereda": "Vereda Ejemplo Uno",
+    "tipos": [
+     "apertura_socavon"
+    ],
+    "tipos_texto": "Apertura de socavón / bocamina nueva",
+    "fecha": "2026-08-02",
+    "descripcion": "REPORTE DE EJEMPLO. Apareció una entrada nueva a una mina cerca del camino.",
+    "titulo_asociado": "EJ-081",
+    "notificado": "No"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -72.7501,
+     5.9552
+    ]
+   },
+   "properties": {
+    "id": "R-ejemplo3",
+    "ubicacion": "exacta",
+    "municipio": "Socotá",
+    "vereda": "Vereda Ejemplo Dos",
+    "tipos": [
+     "sedimentacion_quebrada",
+     "contaminacion_agua"
+    ],
+    "tipos_texto": "Sedimentación / colmatación de quebrada, Contaminación visible del agua",
+    "fecha": "2026-09-30",
+    "descripcion": "REPORTE DE EJEMPLO. La quebrada baja de color café después de las lluvias.",
+    "notificado": "Sí",
+    "entidades": [
+     "Agencia Nacional de Minería (ANM)",
+     "Corpoboyacá"
+    ],
+    "fecha_notificacion": "2026-10-01",
+    "respuesta": "Se realizó visita técnica",
+    "ph": 5.9
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -72.813,
+     5.947
+    ]
+   },
+   "properties": {
+    "id": "R-ejemplo4",
+    "ubicacion": "generalizada",
+    "municipio": "Tasco",
+    "vereda": "Vereda Ejemplo Tres",
+    "tipos": [
+     "maquinaria_activa"
+    ],
+    "tipos_texto": "Maquinaria en operación (fuera de horario o zona autorizada)",
+    "fecha": "2026-07-20",
+    "descripcion": "REPORTE DE EJEMPLO. Se escucha maquinaria de noche.",
+    "notificado": "No"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -72.786,
+     5.934
+    ]
+   },
+   "properties": {
+    "id": "R-ejemplo5",
+    "ubicacion": "exacta",
+    "municipio": "Tasco",
+    "vereda": "Vereda Ejemplo Uno",
+    "tipos": [
+     "grietas_vivienda"
+    ],
+    "tipos_texto": "Grietas en vivienda o terreno (posible subsidencia)",
+    "fecha": "2026-04-11",
+    "descripcion": "REPORTE DE EJEMPLO. Aparecieron grietas nuevas en la pared de una casa.",
+    "notificado": "No"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -72.74,
+     5.978
+    ]
+   },
+   "properties": {
+    "id": "R-ejemplo6",
+    "ubicacion": "exacta",
+    "municipio": "Socotá",
+    "vereda": "Vereda Ejemplo Dos",
+    "tipos": [
+     "tala_paramo"
+    ],
+    "tipos_texto": "Tala o remoción de vegetación de páramo",
+    "fecha": "2026-06-05",
+    "descripcion": "REPORTE DE EJEMPLO. Vieron frailejones removidos al lado de un camino nuevo.",
+    "notificado": "No"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -72.779,
+     5.91
+    ]
+   },
+   "properties": {
+    "id": "R-ejemplo7",
+    "ubicacion": "exacta",
+    "municipio": "Tasco",
+    "vereda": "Vereda Ejemplo Uno",
+    "tipos": [
+     "ruido_explosiones"
+    ],
+    "tipos_texto": "Ruido de explosiones o vibraciones",
+    "fecha": "2026-10-03",
+    "descripcion": "REPORTE DE EJEMPLO. Retumba la casa varias veces a la semana.",
+    "notificado": "No"
+   }
+  }
+ ]
+}

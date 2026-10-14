@@ -1,0 +1,8 @@
+En esta carpeta deben quedar estos 5 archivos (los descarga usted, ver la guía):
+
+  leaflet.js
+  leaflet.css
+  images/            (carpeta completa, viene dentro del zip de Leaflet)
+  leaflet.markercluster.js
+  MarkerCluster.css
+  MarkerCluster.Default.css

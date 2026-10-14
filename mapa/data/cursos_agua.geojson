@@ -1,0 +1,68 @@
+{
+ "type": "FeatureCollection",
+ "datos_ejemplo": true,
+ "features": [
+  {
+   "type": "Feature",
+   "properties": {
+    "nombre": "Quebrada de ejemplo"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      -72.79,
+      5.96
+     ],
+     [
+      -72.783,
+      5.945
+     ],
+     [
+      -72.78,
+      5.93
+     ],
+     [
+      -72.786,
+      5.915
+     ],
+     [
+      -72.781,
+      5.9
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "nombre": "Río de ejemplo"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      -72.835,
+      5.925
+     ],
+     [
+      -72.81,
+      5.93
+     ],
+     [
+      -72.79,
+      5.928
+     ],
+     [
+      -72.76,
+      5.925
+     ],
+     [
+      -72.735,
+      5.918
+     ]
+    ]
+   }
+  }
+ ]
+}

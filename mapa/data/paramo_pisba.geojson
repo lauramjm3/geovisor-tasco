@@ -1,0 +1,39 @@
+{
+ "type": "FeatureCollection",
+ "datos_ejemplo": true,
+ "features": [
+  {
+   "type": "Feature",
+   "properties": {
+    "nombre": "Páramo de Pisba (límite de ejemplo)"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -72.79,
+       5.955
+      ],
+      [
+       -72.7,
+       5.94
+      ],
+      [
+       -72.69,
+       6.02
+      ],
+      [
+       -72.77,
+       6.03
+      ],
+      [
+       -72.79,
+       5.955
+      ]
+     ]
+    ]
+   }
+  }
+ ]
+}

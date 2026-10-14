@@ -1,0 +1,177 @@
+{
+ "type": "FeatureCollection",
+ "datos_ejemplo": true,
+ "features": [
+  {
+   "type": "Feature",
+   "properties": {
+    "id_titulo_anm": "EJ-081",
+    "nombre_proyecto": "Título ejemplo EJ-081",
+    "titular": "Titular de ejemplo",
+    "municipio": "Tasco",
+    "vereda": "Vereda Ejemplo Uno",
+    "mineral": "Carbón",
+    "metodo_explotacion": "Subterráneo - cámara y pilar",
+    "area_ha": 45.3,
+    "fecha_otorgamiento": "2015-03-10",
+    "estado_titulo": "Vigente",
+    "expediente_ambiental": "OOLA-00123/15",
+    "autoridad_ambiental": "Corpoboyacá",
+    "estado_licencia": "Vigente",
+    "fecha_licencia": "2016-06-01",
+    "tiene_eia": "No verificado",
+    "tiene_pma": "No verificado",
+    "tiene_pto": "No verificado",
+    "superpuesto_paramo_pisba": "Parcial",
+    "pct_area_superpuesta": 12.5,
+    "concesion_agua_asociada": "No verificado",
+    "sancionatorios_activos": 0,
+    "fecha_ultimo_acto": "2024-01-01",
+    "fuente_dato": "DATO DE EJEMPLO",
+    "fecha_verificacion": "2026-10-01",
+    "link_fuente": "https://ejemplo.gov.co/expediente"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -72.8,
+       5.905
+      ],
+      [
+       -72.778,
+       5.903
+      ],
+      [
+       -72.772,
+       5.92
+      ],
+      [
+       -72.795,
+       5.925
+      ],
+      [
+       -72.8,
+       5.905
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id_titulo_anm": "EJ-045",
+    "nombre_proyecto": "Título ejemplo EJ-045",
+    "titular": "Titular de ejemplo",
+    "municipio": "Socotá",
+    "vereda": "Vereda Ejemplo Dos",
+    "mineral": "Carbón",
+    "metodo_explotacion": "Subterráneo - cámara y pilar",
+    "area_ha": 120.8,
+    "fecha_otorgamiento": "2015-03-10",
+    "estado_titulo": "Suspendido",
+    "expediente_ambiental": "OOLA-00456/12",
+    "autoridad_ambiental": "Corpoboyacá",
+    "estado_licencia": "Suspendida",
+    "fecha_licencia": "2016-06-01",
+    "tiene_eia": "Sí",
+    "tiene_pma": "No verificado",
+    "tiene_pto": "Sí",
+    "superpuesto_paramo_pisba": "Sí",
+    "pct_area_superpuesta": 38,
+    "concesion_agua_asociada": "Sí",
+    "sancionatorios_activos": 2,
+    "fecha_ultimo_acto": "2024-01-01",
+    "fuente_dato": "DATO DE EJEMPLO",
+    "fecha_verificacion": "2026-10-01",
+    "link_fuente": "https://ejemplo.gov.co/expediente"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -72.765,
+       5.945
+      ],
+      [
+       -72.74,
+       5.94
+      ],
+      [
+       -72.735,
+       5.962
+      ],
+      [
+       -72.758,
+       5.968
+      ],
+      [
+       -72.765,
+       5.945
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id_titulo_anm": "EJ-102",
+    "nombre_proyecto": "Título ejemplo EJ-102",
+    "titular": "Titular de ejemplo",
+    "municipio": "Tasco",
+    "vereda": "Vereda Ejemplo Tres",
+    "mineral": "Arcilla",
+    "metodo_explotacion": "Subterráneo - cámara y pilar",
+    "area_ha": 18.2,
+    "fecha_otorgamiento": "2015-03-10",
+    "estado_titulo": "En trámite",
+    "expediente_ambiental": "No verificado",
+    "autoridad_ambiental": "Corpoboyacá",
+    "estado_licencia": "En trámite",
+    "fecha_licencia": "2016-06-01",
+    "tiene_eia": "No verificado",
+    "tiene_pma": "No verificado",
+    "tiene_pto": "No verificado",
+    "superpuesto_paramo_pisba": "No",
+    "pct_area_superpuesta": 0,
+    "concesion_agua_asociada": "No verificado",
+    "sancionatorios_activos": 0,
+    "fecha_ultimo_acto": "2024-01-01",
+    "fuente_dato": "DATO DE EJEMPLO",
+    "fecha_verificacion": "2026-10-01",
+    "link_fuente": "https://ejemplo.gov.co/expediente"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -72.825,
+       5.94
+      ],
+      [
+       -72.805,
+       5.938
+      ],
+      [
+       -72.802,
+       5.953
+      ],
+      [
+       -72.822,
+       5.956
+      ],
+      [
+       -72.825,
+       5.94
+      ]
+     ]
+    ]
+   }
+  }
+ ]
+}
